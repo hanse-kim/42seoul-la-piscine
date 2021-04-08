@@ -1,0 +1,5 @@
+eval/
+*.out
+*.exe
+._*
+.DS_Store
