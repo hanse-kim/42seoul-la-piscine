@@ -6,7 +6,7 @@
 /*   By: hansekim <hansekim@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/06 20:02:57 by hansekim          #+#    #+#             */
-/*   Updated: 2021/04/06 20:03:46 by hansekim         ###   ########.fr       */
+/*   Updated: 2021/04/09 00:36:27 by hansekim         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,7 @@ int				ft_strlen(char *str)
 
 int				ft_is_valid_base(char *base)
 {
-	int visited[255] = {0, };
+	int visited[256] = {0, };
 	int i;
 
 	i = 0;
