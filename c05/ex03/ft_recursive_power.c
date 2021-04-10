@@ -6,11 +6,11 @@
 /*   By: hansekim <hansekim@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/07 01:38:22 by hansekim          #+#    #+#             */
-/*   Updated: 2021/04/09 20:25:29 by hansekim         ###   ########.fr       */
+/*   Updated: 2021/04/10 13:16:45 by hansekim         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_recursive_power(int nb, int power)
+int	ft_recursive_power(int nb, int power)
 {
 	if (power < 0)
 		return (0);

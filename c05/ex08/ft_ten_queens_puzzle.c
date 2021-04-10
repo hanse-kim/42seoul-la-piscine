@@ -6,13 +6,13 @@
 /*   By: hansekim <hansekim@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/09 20:54:08 by hansekim          #+#    #+#             */
-/*   Updated: 2021/04/09 20:54:09 by hansekim         ###   ########.fr       */
+/*   Updated: 2021/04/10 13:19:02 by hansekim         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <io.h>
+#include <unistd.h>
 
-void ft_putarr(int *arr)
+void	ft_putarr(int *arr)
 {
 	int i;
 	int c;
@@ -27,7 +27,7 @@ void ft_putarr(int *arr)
 	write(1, "\n", 1);
 }
 
-int ft_is_valid_queen(int *queens, int row, int col)
+int		ft_is_valid_queen(int *queens, int row, int col)
 {
 	int i;
 
@@ -45,7 +45,7 @@ int ft_is_valid_queen(int *queens, int row, int col)
 	return (1);
 }
 
-int ft_backtracking(int *queens, int row)
+int		ft_backtracking(int *queens, int row)
 {
 	int col;
 	int count;
@@ -69,7 +69,7 @@ int ft_backtracking(int *queens, int row)
 	return (count);
 }
 
-int ft_ten_queens_puzzle(void)
+int		ft_ten_queens_puzzle(void)
 {
 	int queens[10];
 	int i;
