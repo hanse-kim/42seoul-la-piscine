@@ -1,22 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft.h                                               :+:      :+:    :+:   */
+/*   ft_abs.h                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: hansekim <hansekim@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/04/12 11:12:53 by hansekim          #+#    #+#             */
-/*   Updated: 2021/04/14 15:22:27 by hansekim         ###   ########.fr       */
+/*   Created: 2021/04/14 12:04:25 by hansekim          #+#    #+#             */
+/*   Updated: 2021/04/14 12:06:51 by hansekim         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef FT_H
-# define FT_H
+#ifndef FT_ABS_H
+# define FT_ABS_H
 
-void	ft_putchar(char c);
-void	ft_swap(int *a, int *b);
-void	ft_putstr(char *str);
-int		ft_strlen(char *str);
-int		ft_strcmp(char *s1, char *s2);
+# define ABS(Value) (Value > 0) ? Value : -Value
 
 #endif
